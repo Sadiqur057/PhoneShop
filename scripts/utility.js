@@ -7,3 +7,8 @@ function showElementById(elementId){
   const element = document.getElementById(elementId);
   element.classList.remove('hidden');
 }
+
+function showElementTextById(elementId,value){
+  const element = document.getElementById(elementId);
+  element.innerText = value;
+}
