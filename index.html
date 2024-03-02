@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="styles/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- //google icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 
 <body>
@@ -38,7 +41,7 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn btn-primary">Button</a>
+          <a class="btn btn-primary font-bold">Sign Up</a>
         </div>
       </div>
     </nav>
@@ -47,13 +50,34 @@
       <div class="flex flex-col items-center w-5/6 mx-auto py-8 md:py-16 ">
         <h1 class="font-bold text-[26px] md:text-5xl text-c-primary">Apple Iphone 13 Pro Max</h1>
         <p class="text-sm md:text-base lg:text-lg py-4 md:py-8 text-c-secondary text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
-        <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary font-bold">Buy Now</button>
       </div>
       <div>
         <img class="w-full" src="images/banner-img.png" alt="">
       </div>
     </div>
   </header>
+  <main class="my-8 md:my-16">
+    <div class="w-5/6 mx-auto ">
+      <h1 class="font-semibold text-3xl text-center pb-4 md:pb-8">Search your phone</h1>
+      <div class="join md:w-4/6 lg:w-[55%] mx-auto flex justify-center ">
+        <label class="input input-bordered flex items-center gap-2 flex-1 rounded-r-none">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70"><path fill-rule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clip-rule="evenodd" /></svg>
+          <input id="search-field" type="text" class="grow" placeholder="Search" />
+        </label>
+        <button id="search-btn" class="btn btn-primary join-item rounded-r-md font-bold">Search</button>
+      </div>
+    </div>
+    
+
+    
+
+  </main>
+  <footer>
+
+  </footer>
+  <!-- <script src="scripts/tailwind-theme-config.js"></script> -->
+  <script src="scripts/utility.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 
